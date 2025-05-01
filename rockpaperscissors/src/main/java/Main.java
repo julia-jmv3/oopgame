@@ -16,21 +16,28 @@ public class Main {
 
         //game loop
         Boolean playing = true;
+        Boolean answer = false;
         while (playing){
             game.playGame();
-            System.out.println("Do you want to play again? Y/N");
-            String playAgain = scanner.nextLine().toLowerCase();
-            //try, catch to stop invalid inputs being accepted
-            try{
-                if (playAgain.equals("y")) {
-                    playing = true;
-                } else if (playAgain.equals("n")) {
-                    playing = false;
+            answer = false;
+            while (!answer) {
+                System.out.println("Do you want to play again? Y/N");
+                String playAgain = scanner.nextLine().trim().toLowerCase();
+                //try, catch to stop invalid inputs being accepted
+                try {
+                    if (playAgain.equals("y")) {
+                        playing = true;
+                        answer = true;
+                    } else if (playAgain.equals("n")) {
+                        playing = false;
+                        answer = true;
+                    } else {
+                        throw new IllegalArgumentException("Invalid selection. Please enter y to continue playing or n to quit");
+                    }
+                } catch (IllegalArgumentException e) {
+                    System.out.println(e.getMessage());
                 }
-            }catch(IllegalArgumentException e){
-                System.out.println("Invalid selection. Please enter y to continue playing or n to quit");
             }
-
         }
         System.out.println("Goodbye...");
     }
