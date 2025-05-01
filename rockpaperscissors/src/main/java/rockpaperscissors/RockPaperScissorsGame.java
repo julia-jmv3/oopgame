@@ -22,6 +22,8 @@ public class RockPaperScissorsGame implements Game{
         System.out.println(user.getName()+ " said " + turn1);
         System.out.println(computer.getName()+ " said " + turn2);
 
-        //add more code here
+        //game result
+        String results = WhoWins.getWinner(turn1, turn2);
+        System.out.println(results);
     }
 }
