@@ -1,9 +1,9 @@
 package rockpaperscissors;
 
-public enum rockpaperscissorsoptions {
+public enum RockPaperScissorsOptions {
     ROCK("rock"), PAPER("paper"), SCISSORS("scissors");
     private final String word;
-    rockpaperscissorsoptions(String word) {this.word = word;}
+    RockPaperScissorsOptions(String word) {this.word = word;}
     public String toString(){
         return word;
     }

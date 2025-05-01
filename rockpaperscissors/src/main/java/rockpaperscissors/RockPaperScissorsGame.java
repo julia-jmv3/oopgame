@@ -15,8 +15,8 @@ public class RockPaperScissorsGame implements Game{
 
     @Override
     public void playGame() {
-        rockpaperscissorsoptions turn1 = user.getTurn();
-        rockpaperscissorsoptions turn2 = computer.getTurn();
+        RockPaperScissorsOptions turn1 = user.getTurn();
+        RockPaperScissorsOptions turn2 = computer.getTurn();
 
         //output choices made by each player
         System.out.println(user.getName()+ " said " + turn1);

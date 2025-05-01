@@ -14,12 +14,12 @@ public class UserPlayer extends Player{
 
 
     @Override
-    public rockpaperscissorsoptions getTurn() {
+    public RockPaperScissorsOptions getTurn() {
         System.out.println("Enter rock, paper or scissors"); //tell the user what to do
         String turn = scanner.nextLine().toUpperCase(); //collect input
         //try, catch to stop invalid inputs being accepted
         try{
-            return rockpaperscissorsoptions.valueOf(turn);
+            return RockPaperScissorsOptions.valueOf(turn);
         }catch(IllegalArgumentException e){
             System.out.println("Invalid move. PLease pick rock, paper or scissors");
             return getTurn();

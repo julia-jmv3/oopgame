@@ -12,8 +12,8 @@ public class ComputerPlayer extends Player{
     }
 
     @Override
-    public rockpaperscissorsoptions getTurn() {
-        rockpaperscissorsoptions turn[] = rockpaperscissorsoptions.values(); //getting the options
+    public RockPaperScissorsOptions getTurn() {
+        RockPaperScissorsOptions turn[] = RockPaperScissorsOptions.values(); //getting the options
         return turn[random.nextInt(turn.length)];
     }
 

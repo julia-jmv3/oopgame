@@ -14,7 +14,7 @@ public abstract class Player {
     }
 
     //setting up a turn
-    public abstract rockpaperscissorsoptions getTurn();
+    public abstract RockPaperScissorsOptions getTurn();
 
 
 }
