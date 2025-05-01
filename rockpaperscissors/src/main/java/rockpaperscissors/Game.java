@@ -2,5 +2,5 @@ package rockpaperscissors;
 
 public interface Game {
 
-    void playGame();
+    void playGame(Player player);
 }
