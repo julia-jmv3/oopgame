@@ -8,5 +8,13 @@ public abstract class Player {
         this.name=name;
     }
 
+    //getter for username
+    public String getName(){
+        return name;
+    }
+
+    //setting up a turn
+    public abstract rockpaperscissorsoptions getTurn();
+
 
 }
