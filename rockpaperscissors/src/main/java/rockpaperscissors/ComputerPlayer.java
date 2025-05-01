@@ -11,5 +11,11 @@ public class ComputerPlayer extends Player{
         random = new Random();
     }
 
+    @Override
+    public rockpaperscissorsoptions getTurn() {
+        rockpaperscissorsoptions turn[] = rockpaperscissorsoptions.values(); //getting the options
+        return turn[random.nextInt(turn.length)];
+    }
+
 
 }
