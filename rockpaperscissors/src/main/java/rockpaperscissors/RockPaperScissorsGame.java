@@ -14,7 +14,7 @@ public class RockPaperScissorsGame implements Game{
 
 
     @Override
-    public void playGame(Player player) {
+    public void playGame() {
         rockpaperscissorsoptions turn1 = user.getTurn();
         rockpaperscissorsoptions turn2 = computer.getTurn();
 

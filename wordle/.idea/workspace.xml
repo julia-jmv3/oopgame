@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db05b644-d2b8-451d-a249-e7fb5e7ecd2f" name="Changes" comment="structure of app" />
+    <list default="true" id="db05b644-d2b8-451d-a249-e7fb5e7ecd2f" name="Changes" comment="structure of app">
+      <change afterPath="$PROJECT_DIR$/../rockpaperscissors/src/main/java/rockpaperscissors/rockpaperscissorsoptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rockpaperscissors/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rockpaperscissors/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rockpaperscissors/src/main/java/rockpaperscissors/RockPaperScissorsGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rockpaperscissors/src/main/java/rockpaperscissors/RockPaperScissorsGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/JuliaVennall/IdeaProjects/oopgame/gamecode"
+    "last_opened_file_path": "C:/Users/JuliaVennall/IdeaProjects/oopgame/wordle"
   }
 }]]></component>
   <component name="TaskManager">
